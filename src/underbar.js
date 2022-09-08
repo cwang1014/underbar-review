@@ -238,13 +238,6 @@
     }, true);
   };
 
-  // if (iterator === undefined) {
-  //   if (accumulator === true) {
-  //     accumulator = !!item;
-  //   }
-  //   return false;
-  // }
-
   // Determine whether any of the elements pass a truth test. If no iterator is
   // provided, provide a default one
   _.some = function(collection, iterator) {
